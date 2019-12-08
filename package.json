@@ -1,0 +1,26 @@
+{
+  "name": "app-node-hw",
+  "version": "1.0.0",
+  "description": "My homework project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terian93/node-app-hw.git"
+  },
+  "author": "Vitaliy Vanchak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terian93/node-app-hw/issues"
+  },
+  "homepage": "https://github.com/Terian93/node-app-hw#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+}
