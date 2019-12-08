@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh -tt root@172.17.0.2 -p 3001 <<EOF
+ssh -tt root@172.17.0.1 -p 3001 <<EOF
  cd ~/node-app
  git pull
  npm install
