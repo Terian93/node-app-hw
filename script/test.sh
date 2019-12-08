@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo ./node_modules/.bin/mocha ./test/test.js --exit
+./node_modules/.bin/mocha ./test/test.js --exit
