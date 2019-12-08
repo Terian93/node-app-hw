@@ -1,6 +1,8 @@
 #!/bin/sh
 
-ssh -tt root@172.17.0.1 -p 3001 <<EOF
+ssh -tt root@172.17.0.1 -p 3001 
+echo root
+<<EOF
  root
  cd ~/node-app
  git pull
